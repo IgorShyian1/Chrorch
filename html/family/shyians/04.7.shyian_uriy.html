@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Styles/css//shyians/04.2.shyian_uriy.css">
+    <title>Пра-пра-дід</title>
+</head>
+<body>
+    <header>
+        <div class="header__container">
+            <div class="header__row">
+                <ul class="header__parents">
+                    <a href="#"><li class="header__child">Домашня сторінка</li></a>
+                    <a href="#"><li class="header__child">Тестова перша</li></a>                    
+                    <a href="#"><li class="header__child">Тестова друга</li></a>                   
+                    <a href="#"><li class="header__child">Тестова третя</li></a>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="content">
+        <nav>
+            <ul class="nav">
+                <li><a class="active" href="/html/pages/02.main.html">Головна</a></li>
+                <li><a class="news"  href="/html/pages/03.family_shyians.html">Родина Шиянів</a></li>
+                <li><a class="contacts" href="/html/pages/04.family_gaivoronsks.html">Родина  Гайворонських</a></li>
+                <li><a class="aboat" href="/html/pages/05.aboat.html">Про нас</a></li>
+              </ul>
+              
+              <div style="margin-left:25%;padding:1px 16px;height:1000px;">
+
+
+                <h2 class="h2">Шиян Юрій Михайлович </h2>
+                <h3 class="h3"> 
+                Народився 17 липня 1996 року <br>
+                Помер  червня 1999 року <br>(2 роки)</h3>
+                
+
+                <h3 class="h3"> </h3>
+
+
+
+
+
+
+                <div style="text-align:center">
+                    <h2>Сімейне фото</h2>
+                    <p>1998 рік</p>
+                  </div>
+                  
+                  <!-- The four columns -->
+                  <div class="row">
+                    <div class="column">
+                      <img src="/Interface/Library/Photos/uriy/01 Сімейне фото  з  Юрою 1998 рік.jpg" alt="Вся сім'я" style="width:100%" onclick="myFunction(this);">
+                    </div>
+                    <div class="column">
+                      <img src="/Interface/Library/Photos/uriy/02 Сімейне фото  з  Юрою 1998 рік.jpg" alt="З мамою" style="width:100%" onclick="myFunction(this);">
+                    </div>
+                    <div class="column">
+                      <img src="/Interface/Library/Photos/uriy/03 Сімейне фото  з  Юрою 1998 рік.jpg" alt="З татом" style="width:100%" onclick="myFunction(this);">
+                    </div>
+                    <div class="column">
+                      <img src="/Interface/Library/Photos/uriy/04 Сімейне фото  з  Юрою 1998 рік.jpg" alt="Я з братиком №1" style="width:100%" onclick="myFunction(this);">
+                    </div>
+                    <div class="column">
+                        <img src="/Interface/Library/Photos/uriy/05 Сімейне фото  з  Юрою 1998 рік.jpg" alt="Я з братиком №2" style="width:100%" onclick="myFunction(this);">
+                      </div>
+                      <div class="column">
+                        <img src="/Interface/Library/Photos/uriy/06 Сімейне фото  з  Юрою 1998 рік.jpg" alt="Привіт" style="width:100%" onclick="myFunction(this);">
+                      </div>
+                  </div>
+                  
+                  <div class="container">
+                    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                    <img id="expandedImg" style="width:100%">
+                    <div id="imgtext"></div>
+                  </div>
+                  
+                  <script>
+                  function myFunction(imgs) {
+                    var expandImg = document.getElementById("expandedImg");
+                    var imgText = document.getElementById("imgtext");
+                    expandImg.src = imgs.src;
+                    imgText.innerHTML = imgs.alt;
+                    expandImg.parentElement.style.display = "block";
+                  }
+                  </script>
+
+
+                   
+                    <a href="04.7.daddy.html"> <button class="" type="submit">Повернутись назад</button> </a>
+              </div>
+        </nav>
+    </section>
+    <footer>
+        <div class="ft__container">
+            <div class="ft__row">
+                <ul class="ft__parents">
+                    <a href="#"><li class="ft__child">Один</li></a>
+                    <a href="#"><li class="ft__child">Два</li></a>                    
+                    <a href="#"><li class="ft__child">Три</li></a>
+
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

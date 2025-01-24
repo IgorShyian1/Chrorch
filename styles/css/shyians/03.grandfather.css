@@ -1,0 +1,326 @@
+/* Reset */
+.content {
+    width: 100%;   /*Ширина на вікно браузера*/
+        /* background-color: aliceblue; */
+        overflow-y:auto; /*Вертикальная полоса прокрутки для текста*/
+        padding: 10px; /*отступы текста со всех сторон*/
+        text-align: justify; /*выравнивание текста по левому и правому краям*/     
+        flex-grow: 1; /*Предписываем занять все свободное пространство*/
+    }
+  a { text-decoration-line: none;}
+  
+  /* Reset */
+  
+  
+  
+  body{
+    position:fixed; /*Від'єднуємо контейнер від сторінки та фіксуємо у вікні браузера*/
+    width: 100%;   /*Ширина на вікно браузера*/
+    height: 100%;  /*Висота на все вікно браузера*/
+    /* background-color: pink; */
+    display: flex; /*Перетворюємо контейнер на flexBox*/
+    flex-direction: column; /*Розставляємо дочірні елементи по вертикалі*/
+  }
+  
+  /* Header */
+  header{
+    box-shadow: 8px 5px 5px 7px #009026;
+    margin: 0px 0px 0px -10px ;
+    padding: 0px 0px 16px 0px ;
+    height: 32px;
+    background-color: #009026;
+      
+    flex-grow: 0; /*Забороняємо збільшуватись*/
+    flex-shrink:0; /*Забороняємо стискатися*/
+    flex-basis: auto; 
+  }
+    .header__parents{
+        display: flex;
+        justify-content: space-around;
+    }
+    .header__child{
+        padding: 0px 0px 0px 0px;
+        list-style-type: none;
+        color: #ff0000a0;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: 900;
+    }
+  .header__container{
+  
+  }
+  /* Header */
+  
+  /* Navigation*/
+  body {
+    background-image: url("/Interface/Library/fone/background70.png");
+    margin: 0;
+  }
+  .h1_nav_contacts{
+    display: inline-flex;
+    box-shadow: 5px 1px 3px 10px #ffffff91;
+    font-weight: 900;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #aeaeae91;
+    position: fixed;
+    height: 200px;
+    overflow: auto;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 15px 16px;
+    text-decoration: none;
+  }
+  
+  .nav_div{
+    /* background-color: rgba(240, 248, 255, 0.631);  */
+  } 
+
+  .active:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .news:hover{
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .contacts:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .aboat:hover{
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+  }
+  
+  
+  /* Navigation*/
+  
+
+
+
+  .h2{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .h3{
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .daddy_ch{
+    display: block;
+  }
+.ch{
+    color: #000;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+.family_photo{
+  font-size: 30px;
+  color: #000;
+}
+#submit{
+  font-size: 20px;
+}
+/* .family_photo:hover{
+
+  background: url(/Interface/Library/Photos/family_shyians.jpg) bottom / 750px no-repeat ; 
+  height: 600px;
+  width: 750px;
+
+} */
+/* Шиян(Кошман) Валентина Іванівна */
+.ch_v{
+  text-align: top;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #002626;
+  font-size: 25px;
+
+  font-style: italic;
+  border: 5px solid black;
+  display: inline-flex;
+  width: 600px;
+}
+
+.img_val{
+  padding:0 0px 0 65px;
+}
+/* --------- */
+
+
+
+
+
+
+
+
+/* .ch_v:hover{ 
+  background: url(/Interface/Library/Photos/valia.jpg) right /  250px 300px no-repeat ; 
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #002626;
+  font-size: 30px;
+  transition: 1s;
+  height: 250px;
+
+
+}   */
+
+
+
+
+
+.ch_g{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #002626;
+  font-size: 25px;
+  font-style: italic;
+  border: 5px solid black;
+  display: inline-flex;
+  width: 600px;
+}
+.img_gal{
+  padding:0 0px 0 78px;
+}
+/* .ch_g:hover{
+  background: url(/Interface/Library/Photos/galia.jpg) right /  250px 300px no-repeat ; 
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #002626;
+  font-size: 30px;
+  transition: 1s;
+  height: 250px;
+  border: 5px solid black;
+} */
+
+.ch_gr{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #002626;
+  font-size: 25px;
+  font-style: italic;
+  border: 5px solid black;
+  display: inline-flex;
+  width: 600px;
+}
+.img_gr{
+  padding:0 0px 0 189px;
+}
+/* .ch_gr:hover{
+  background: url(/Interface/Library/Photos/gr.jpg) right /  250px 300px no-repeat ; 
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #002626;
+  font-size: 30px;
+  transition: 1s;
+  height: 250px;
+  border: 5px solid black;
+} */
+
+.ch_tet{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #002626;
+  font-size: 25px;
+  font-style: italic;
+  border: 5px solid black;
+  display: inline-flex;
+  width: 600px;
+}
+.img_tet{
+  padding:0 0px 0 100px;
+}
+/* .ch_tet:hover{
+  background: url(/Interface/Library/Photos/tet.jpg) right /  250px 300px no-repeat ; 
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #002626;
+  font-size: 30px;
+  transition: 1s;
+  height: 250px;
+  border: 5px solid black;
+} */
+
+.ch_mar{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #002626;
+  font-size: 25px;
+  font-style: italic;
+  border: 5px solid black;
+  display: inline-flex;
+  width: 600px;
+}
+.img_mar{
+  padding:0 0px 0 130px;
+}
+/* .ch_mar:hover{
+  background: url(/Interface/Library/Photos/maria.jpg) right /  250px 300px no-repeat ; 
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #002626;
+  font-size: 30px;
+  transition: 1s;
+  height: 250px;
+  border: 5px solid black;
+} */
+
+.ch_lbv{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #002626;
+  font-size: 25px;
+  font-style: italic;
+  border: 5px solid black;
+  display: inline-flex;
+  width: 600px;
+}
+.img_lbv{
+  padding:0 0px 0 160px;
+}
+
+.ch_mhl{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #002626;
+  font-size: 25px;
+  font-style: italic;
+  border: 5px solid black;
+  display: inline-flex;
+  width: 600px;
+}
+.img_mhl{
+  padding:0 0px 0 185px;
+}
+
+.ch:hover{
+    background: url(/Interface/Library/images/qwe.png);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #8d0000;
+    font-size: 27px;
+    transition: 100ms;
+    height: 200px;
+    width: 200px;
+}
+
+
+
+  /* Footer */
+    footer{
+        margin: 0px 0px 0px -10px ;
+        padding: 0px 0px 0px 0px ;
+        /* height: 10%; */
+        height: 60px;
+        background-color: cadetblue;  
+        flex-grow: 0; /*Забороняємо збільшуватись*/
+        flex-shrink:0; /*Забороняємо стискатися*/
+        flex-basis: auto;
+            }
+  
+  
+    .ft__parents{
+        display: flex;
+        justify-content: space-around;
+    } 
+  /* Footer */

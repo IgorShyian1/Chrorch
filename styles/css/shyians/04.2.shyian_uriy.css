@@ -1,0 +1,232 @@
+/* Reset */
+.content {
+    width: 100%;   /*Ширина на вікно браузера*/
+        /* background-color: aliceblue; */
+        overflow-y:auto; /*Вертикальная полоса прокрутки для текста*/
+        padding: 10px; /*отступы текста со всех сторон*/
+        text-align: justify; /*выравнивание текста по левому и правому краям*/     
+        flex-grow: 1; /*Предписываем занять все свободное пространство*/
+    }
+  a { text-decoration-line: none;}
+  
+  /* Reset */
+  
+  
+  
+  body{
+    position:fixed; /*Від'єднуємо контейнер від сторінки та фіксуємо у вікні браузера*/
+    width: 100%;   /*Ширина на вікно браузера*/
+    height: 100%;  /*Висота на все вікно браузера*/
+    /* background-color: pink; */
+    display: flex; /*Перетворюємо контейнер на flexBox*/
+    flex-direction: column; /*Розставляємо дочірні елементи по вертикалі*/
+  }
+  
+  /* Header */
+  header{
+    box-shadow: 8px 5px 5px 7px #009026;
+    margin: 0px 0px 0px -10px ;
+    padding: 0px 0px 16px 0px ;
+    height: 32px;
+    background-color: #009026;
+      
+    flex-grow: 0; /*Забороняємо збільшуватись*/
+    flex-shrink:0; /*Забороняємо стискатися*/
+    flex-basis: auto; 
+  }
+    .header__parents{
+        display: flex;
+        justify-content: space-around;
+    }
+    .header__child{
+        padding: 0px 0px 0px 0px;
+        list-style-type: none;
+        color: #ff0000a0;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: 900;
+    }
+ 
+  /* Header */
+  
+  /* Navigation*/
+  body {
+    background-image: url("/Interface/Library/fone/background70.png");
+    margin: 0;
+  }
+  .h1_nav_contacts{
+    display: inline-flex;
+    box-shadow: 5px 1px 3px 10px #ffffff91;
+    font-weight: 900;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #aeaeae91;
+    position: fixed;
+    height: 200px;
+    overflow: auto;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 15px 16px;
+    text-decoration: none;
+  }
+  
+  .active:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .news:hover{
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .contacts:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .aboat:hover{
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+  }
+  
+  
+  /* Navigation*/
+  
+
+
+
+  .h2{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .h3{
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+.ch{
+    color: #000;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+.ch:hover{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #8d0000;
+    font-size: 27px;
+    transition: 100ms;
+    background: url('/Interface/Library/images/qwe.png');
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Сітка: чотири рівні стовпці, які плавають один біля одного */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Стилізуйте зображення всередині сітки */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Footer */
+    footer{
+        margin: 0px 0px 0px -10px ;
+        padding: 0px 0px 0px 0px ;
+        /* height: 10%; */
+        height: 60px;
+        background-color: cadetblue;  
+        flex-grow: 0; /*Забороняємо збільшуватись*/
+        flex-shrink:0; /*Забороняємо стискатися*/
+        flex-basis: auto;
+            }
+  
+  
+    .ft__parents{
+        display: flex;
+        justify-content: space-around;
+    } 
+  /* Footer */
